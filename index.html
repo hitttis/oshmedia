@@ -1,0 +1,709 @@
+Понял. Вот HTML-файл с переведенным текстом на кыргызский язык, сохраняя структуру.
+
+```html
+<!DOCTYPE html>
+<html lang="kg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oshMedia</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                oshMedia
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Издөө...">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Түзүү</label>
+                <div class="profile-photo">
+                    <img src="./images/profile-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>eldar.xc</h4>
+                        <p class="text-muted">
+                            @eldar.xc
+                        </p>
+                    </div>
+                </a>
+
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Башкы бет</h3>   
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span>
+                        <h3>Изилдөө</h3>
+                    </a>
+                    <a class="menu-item"  id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Билдирүү</h3>
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-2.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Матазов Али</b> достук сурамыңызды кабыл алды
+                                    <small class="text-muted">2 күн мурун</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Mama Nolana</b> постуңузга комментарий берди
+                                    <small class="text-muted">1 саат мурун</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-4.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Lamine Yamal ✪</b> жана <b>283 башкалар</b> постуңузду жактырышты
+                                    <small class="text-muted">4 мүнөт мурун</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Маникюр - Педикюр</b> сиз белгиленген постко комментарий берди
+                                    <small class="text-muted">2 күн мурун</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-6.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Mali</b> сиз белгиленген постко комментарий берди
+                                    <small class="text-muted">1 саат мурун</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-7.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>_aktan_zh</b> постуңузга комментарий берди
+                                    <small class="text-muted">1 саат мурун</small>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span>
+                        <h3>Чат</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark"></i></span>
+                        <h3>Сакталгандар</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-chart-line"></i></span>
+                        <h3>Аналитика</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="uil uil-palette"></i></span>
+                        <h3>Тема</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Орнотуулар</h3>
+                    </a>
+                </div>
+                <label class="btn btn-primary" for="create-post">Пост түзүү</label>
+            </div>
+
+            <div class="middle">
+                 <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-8.jpg">
+                        </div>
+                        <p class="name">Сиздин окуяңыз</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-9.jpg">
+                        </div>
+                        <p class="name">Лила Жеймс</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-10.jpg">
+                        </div>
+                        <p class="name">Винни Хейли</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-11.jpg">
+                        </div>
+                        <p class="name">Даниел Бейл</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-12.jpg">
+                        </div>
+                        <p class="name">Джейн Доу</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-13.jpg">
+                        </div>
+                        <p class="name">Тина Уайт</p>
+                    </div>
+                </div>
+                <form action="" class="create-post">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg">
+                    </div>
+                    <input type="text" placeholder="Оюңузда эмне бар, eldar.xc?" id="create-post">
+                    <input type="submit" value="Жарыялоо" class="btn btn-primary">
+                </form>
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-13.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Cristiano Ronaldo ✪</h3>
+                                    <small>Дубай, 15 мүнөт мурун</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-1.jpeg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-15.jpg"></span>
+                            <p><b>Бексултан Эрмеков</b> жана <b>12, 174, 323 башкалар</b> жактырышты</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Cristiano Ronaldo</b> Lamine was awesome. 
+                            <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            Бардык 277 комментарийди көрүү
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-10.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Мирбек Атабеков ✪</h3>
+                                    <small>Бишкек, 2 саат мурун</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-3.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-11.jpg"></span>
+                            <span><img src="./images/profile-5.jpg"></span>
+                            <span><img src="./images/profile-16.jpg"></span>
+                            <p><b>Диана </b> жана <b>2, 323 башкалар</b> жактырышты</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Мирбек Атабеков</b> Бишкек, Ош — жүрөктөн чыккан чоң рахмат! Энергияңар, колдооңор өзгөчө болду. 
+                            <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            Бардык 100 комментарийди көрүү
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-4.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Lamine Yamal ✪</h3>
+                                    <small>Нью-Йорк, 50 мүнөт мурун</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-4.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-12.jpg"></span>
+                            <span><img src="./images/profile-13.jpg"></span>
+                            <span><img src="./images/profile-14.jpg"></span>
+                            <p><b>Мирбек Атабеков</b> жана <b>49, 323 , 182 башкалар</b> жактырышты</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Lamine Yamal ✪</b> New dad of Real Madrid. Yes its me. I've destroyed the whole real with my skills. 4-0 for barca. visca Barca ! 
+                            <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            Бардык 50 комментарийди көрүү
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Маникюр - Педикюр</h3>
+                                    <small>Osh, 4 саат мурун</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-5.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-15.jpg"></span>
+                            <p><b>Карамат Эже</b> жана <b>5, 323 башкалар</b> жактырышты</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Маникюр - Педикюр</b> Записаться можно Через онлайн запись 24/7
+                            <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            Бардык 540 комментарийди көрүү
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-7.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>_aktan_zh</h3>
+                                    <small>Сиэтл, 3 саат мурун</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-7.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-15.jpg"></span>
+                            <p><b>Habib</b> жана <b>1, 226 башкалар</b> жактырышты</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>_aktan_zh</b> Купил такую кроху, теперь буду кататься по городу.
+                            <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            Бардык 199 комментарийди көрүү
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-15.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>olegtinkov</h3>
+                                    <small>Нью-Йорк, 5 саат мурун</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-2.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-15.jpg"></span>
+                            <p><b>Эрнест Ачивер</b> жана <b>2, 323 башкалар</b> жактырышты</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>olegtinkov</b> Понятие Родина не понимаю, 9мая, 23февраля и 8 Марта не справляю.
+                            <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            Бардык 277 комментарийди көрүү
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Mama Nolana</h3>
+                                    <small>Катар, 8 саат мурун</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-6.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-15.jpg"></span>
+                            <p><b>olegtinkov</b> жана <b>2, 323 башкалар</b> жактырышты</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Mama Nolana</b> Ищите стабильную работу, а не стабильную зарплату!
+                            <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            Бардык 277 комментарийди көрүү
+                        </div>
+                    </div>
+                    </div>
+                </div>
+             <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Билдирүүлөр</h4>
+                        <i class="uil uil-edit"></i>
+                    </div>
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Билдирүүлөрдү издөө" id="message-search">
+                    </div>
+                    <div class="category">
+                        <h6 class="active">Негизги</h6>
+                        <h6>Жалпы</h6>
+                        <h6 class="message-requests">Сурамдар (7)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-17.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>wonde4_guy</h5>
+                            <p class="text-muted">Hi bro! Let's play brawlstars</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-6.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Mali</h5>
+                            <p class="text-bold">2 жаңы билдирүү</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-8.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Шалунбек</h5>
+                            <p class="text-muted">хаха, туура айтасың</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-10.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Мирбек Атабеков ✪</h5>
+                            <p class="text-muted">Брат, завтра коллаб не забудь</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-7.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>_aktan_zh</h5>
+                            <p class="text-bold">5 жаңы билдирүү</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-15.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>olegtinkov</h5>
+                            <p class="text-muted">Онлайн банкинг замутим? 💸ах💸ах💸</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-requests">
+                    <h4>Достук сурамдары</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-20.jpg">
+                            </div>
+                            <div>
+                                <h5>madisonbeer ✪</h5>
+                                <p class="text-muted">1928749 жалпы дос</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Кабыл алуу
+                            </button>
+                            <button class="btn">
+                                Баш тартуу
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-18.jpg">
+                            </div>
+                            <div>
+                                <h5>Bratishka Yamala</h5>
+                                <p class="text-muted">2 жалпы дос</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Кабыл алуу
+                            </button>
+                            <button class="btn">
+                                Баш тартуу
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-17.jpg">
+                            </div>
+                            <div>
+                                <h5>Wonderguy_2ndAcc</h5>
+                                <p class="text-muted">5 жалпы дос</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Кабыл алуу
+                            </button>
+                            <button class="btn">
+                                Баш тартуу
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </main>
+
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Көрүнүшүңүздү ыңгайлаштырыңыз</h2>
+            <p class="text-muted">Шрифт өлчөмүн, түсүн жана фонун башкарыңыз</p>
+
+            <div class="font-size">
+                <h4>Шрифт өлчөмү</h4>
+                <div>
+                    <h6>Аа</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Аа</h3>
+                </div>
+            </div>
+
+            <div class="color">
+                <h4>Түс</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <div class="background">
+                <h4>Фон</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Жарык</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Күңүрт</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Караңгы</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+```
