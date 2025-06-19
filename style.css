@@ -335,12 +335,12 @@ main .container .left .profile {
 }
 
 .middle .stories .story:nth-child(5) {
-    background: url("./images/story-5.jpg")
+    background: url("./images/story-6.jpg")
     no-repeat center center/cover;
 }
 
 .middle .stories .story:nth-child(6) {
-    background: url("./images/story-6.jpg")
+    background: url("./images/story-5.jpg")
     no-repeat center center/cover;
 }
 
@@ -737,7 +737,7 @@ MEDIA QUERIES FOR SMALL LAPTOP AND BIG TABLETS
 MEDIA QUERIES FOR SMALL TABLETS AND MOBILE PHONES
 ==================== */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 550px) {
     nav .search-bar {
         display: none;
     }
