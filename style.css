@@ -737,7 +737,7 @@ MEDIA QUERIES FOR SMALL LAPTOP AND BIG TABLETS
 MEDIA QUERIES FOR SMALL TABLETS AND MOBILE PHONES
 ==================== */
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 250px) {
     nav .search-bar {
         display: none;
     }
